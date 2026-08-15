@@ -1,0 +1,31 @@
+Inheritance:- To reuse the code/logic.
+-------------
+					Type of Relation
+					-----------------
+	
+	Student IS-A Person (100% true)				Employee HAS-A Address
+
+	Person(Parent/Super/Base)			class Employee
+	 |						{	
+	Student(Child/Derived,Sub)				Address addresss = new  Address();	
+
+
+							}	
+
+			1. IS-A Relation			2. HAS-A Relation	
+				|					|
+				|				    Aggregation
+				|
+			Type of Inheritance
+			---------------------
+
+				  2.By Interface(Abstraction Topic)
+					|
+		---------------------------------------------------
+		|						  |
+	1. By Java Class					  |
+	-----------------					  |		
+		|						  |
+----------------------------------------		-----------------------	
+    |		     |		     |			    |		    |		
+1. Single	2. Multilevel	3. Hierarchical		4. Multiple 	5. Hybrid	
