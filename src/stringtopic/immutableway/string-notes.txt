@@ -1,0 +1,127 @@
+String - Multiple Characters
+------------------------------
+
+			Ways to Operate on String type Data
+			------------------------------------
+	1. ImmutableWay					2. MutableWay	
+	----------------				----------------
+	==> String(C)					==> StringBuilder(C)				
+							==> StringBuffer(C)
+----------------------------------------------------------------------------------------------------------------
+1. ImmutableWay(String class):-
+--------------------------------
+
+==> Ways to create Object by String class
+
+	1. By String Literals Way(RAM----HEAP----SCP(String Constant Pool)--create String Objects):-
+	-------------------------------------------------------------------------------------------
+
+		String name1 = "royal";
+		String name2 = "royal";
+		String name3 = "technosoft";
+		String name4 = name3;
+		
+		String name5 = "royaltechnosoft";
+
+		String name6 = name1 + name3;// name1.concat(name3);// royaltechnosoft
+
+		String name7 = name6;
+
+Object Equality:-
+----------------
+			1. refernceBased(==)					2. ValueBased(.equals())	
+			---------------------					-------------------------
+			SOP(name1 == name2);
+			SOP(name1 == name3);
+			SOP(name1 == name4);
+			SOP(name1 == name5);
+			SOP(name1 == name6);
+			SOP(name1 == name7);
+
+			SOP(name2 == name3);
+			SOP(name2 == name4);
+			SOP(name2 == name5);
+			SOP(name2 == name6);
+			SOP(name2 == name7);
+			
+			SOP(name3 == name4);
+			SOP(name3 == name5);
+			SOP(name3 == name6);
+			SOP(name3 == name7);
+
+			SOP(name4 == name5);
+			SOP(name4 == name6);
+			SOP(name4 == name7);
+
+			SOP(name5 == name6);
+			SOP(name5 == name7);
+
+			SOP(name6 == name7);
+
+
+
+
+
+	2. By String 'new' keyword Way(RAM----HEAP) :-
+	-----------------------------------------------
+		String name8 = new String("ankur");
+		String name9 = new String("ankur");
+		String name10 = name8;
+		String name11 = new String("royal");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+

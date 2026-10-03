@@ -1,0 +1,33 @@
+Runtime Polymorphism:-
+-----------------------
+
+								Person(getBehave()--Human)
+								  |
+	---------------------------------------------------------------------------------
+	|		 	  |							|					| 
+  School		Org 			  		PublicPlace		       Home	
+  getBehave()  getBehave()              getBehave()         getBehave()
+  Student		Employee		    	 Citizen		      Child
+ 
+ getResult();  getSalary()		  getPublicEventInfo()		getMoviewOnTime();
+ 
+
+
+	Person person = null;
+
+	// Runtime Polymorphism==> Upcasting / Polymorphic Object / Late Binding / Dynamic Binding 
+
+	person = new School();
+	person.getBehave();// Student	// Dynamic Method Dispatch
+	person.getResult();//C.E
+
+// Downcasting
+	School student= (School)person;// ClassCastException
+	student.getResult();
+
+	person = new Org();
+	person.getBehave();// Employee
+
+	person = new PublicPlace();
+	person.getBehave();// Citizen		      
+

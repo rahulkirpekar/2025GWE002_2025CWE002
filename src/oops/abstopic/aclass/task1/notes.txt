@@ -1,0 +1,120 @@
+Abstraction:- To increase security of Application funcationality
+------------
+
+	Driver--drive---car----Engine---cover hide
+
+	SBI login---username/password----Home Page
+------------------------------------------------------------------------------------------------------
+
+			Type of Abstraction
+			----------------------
+	1. 0% to 100% Abstraction		2. 100% Abstraction
+	---------------------------		---------------------------
+	==> Abstract classs			==> interface(pure abstraction)
+------------------------------------------------------------------------------------------------------
+Abstract classs:-
+-----------------
+
+
+abstract class A
+{
+	// 1. Data Members
+
+	// 2. Member function
+		1. Abstract Methods
+		2. NonAbstract Methods
+
+	// 3. Constructors
+}
+
+
+
+
+			Type of Abstraction
+			-------------------
+
+	1. Abstract class		2. interface(100%)
+	 (0% to 100%)
+
+
+interface:- [100% Abstraction]
+-------------
+
+	optional
+	  |
+public abstract interface A
+{
+	1. Constant Variables(public static final)
+	2. Member Function
+		1. Abstract Methods(public abstract)
+		2. Non-Abstract Methods(static(8),default(8),private(9))
+}	
+
+
+
+
+
+		interface
+		   |
+		 class
+
+
+	class		interface		class
+	 |--extends	   |--implements	  |--X(Not Possible in Java)	
+	class		 class			interface
+
+
+		interface
+		    |--extends
+		interface
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		School/College Top Management
+
+		Directors(interface)
+		   |
+		Principal(Abstract class) + Rules + Impl
+		   |
+		  HOD(Abstract class) + Rules + Impl
+		   |
+ ----------------------------------------
+ |		   |			|
+Faculties     AdminStaff	   PeonStaff---Concrete Classs
+			
